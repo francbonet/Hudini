@@ -10,8 +10,8 @@
             <objects>
                 <viewController id="xka-uB-wLM" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="mqM-Np-52q"/>
-                        <viewControllerLayoutGuide type="bottom" id="CS4-S7-0lM"/>
+                        <viewControllerLayoutGuide type="top" id="ZqA-K9-1Tj"/>
+                        <viewControllerLayoutGuide type="bottom" id="PAu-1X-k0V"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="I8w-tz-8AO">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -53,8 +53,8 @@
             <objects>
                 <viewController storyboardIdentifier="Hudini" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4O2-rE-BLY" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="zbH-4V-sZV"/>
-                        <viewControllerLayoutGuide type="bottom" id="8Oh-LR-6CZ"/>
+                        <viewControllerLayoutGuide type="top" id="Kp9-Zz-kTt"/>
+                        <viewControllerLayoutGuide type="bottom" id="bEQ-Eg-WdA"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="cLA-Hs-Gay">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -68,6 +68,25 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Donde" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r7S-IC-4aY">
+                                <rect key="frame" x="55" y="134" width="210" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I25-nH-euS">
+                                <rect key="frame" x="90" y="180" width="141" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Do The Hudini">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="authButtonAction:" destination="4aj-R1-zIm" eventType="touchUpInside" id="Tls-dF-i3p"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.87311056389999997" green="0.87311056389999997" blue="0.87311056389999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -81,7 +100,7 @@
         <scene sceneID="EU7-xL-WAg">
             <objects>
                 <tabBarController storyboardIdentifier="Main" definesPresentationContext="YES" modalTransitionStyle="flipHorizontal" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nUr-7g-Fmx" customClass="BarViewController" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="p96-sX-0KE">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -102,8 +121,8 @@
             <objects>
                 <viewController storyboardIdentifier="Config" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4aj-R1-zIm" customClass="ConfigViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="75N-PX-YBb"/>
-                        <viewControllerLayoutGuide type="bottom" id="QFY-I8-jDM"/>
+                        <viewControllerLayoutGuide type="top" id="ADY-fR-rLy"/>
+                        <viewControllerLayoutGuide type="bottom" id="QFQ-UU-Uts"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4th-OG-Qhn">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -123,13 +142,13 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Name" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Th5-Zc-2mO">
-                                <rect key="frame" x="55" y="155" width="210" height="30"/>
+                                <rect key="frame" x="55" y="184" width="210" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Id" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5ys-Q3-RAv">
-                                <rect key="frame" x="55" y="193" width="210" height="30"/>
+                                <rect key="frame" x="55" y="222" width="210" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -142,6 +161,11 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xrq-kl-LMY">
+                                <rect key="frame" x="55" y="97" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.87311056389999997" green="0.87311056389999997" blue="0.87311056389999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -160,14 +184,14 @@
             <objects>
                 <viewController storyboardIdentifier="TimeLine" useStoryboardIdentifierAsRestorationIdentifier="YES" id="EG4-G5-5g4" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jxF-i6-hI1"/>
-                        <viewControllerLayoutGuide type="bottom" id="1tS-u5-qdd"/>
+                        <viewControllerLayoutGuide type="top" id="hoC-EG-yga"/>
+                        <viewControllerLayoutGuide type="bottom" id="HZ3-Yj-8Pj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Tly-i2-uvM">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The TimeLine" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aQ-am-3pI">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="The TimeLine" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aQ-am-3pI">
                                 <rect key="frame" x="87" y="50" width="147" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -175,8 +199,17 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="3ne-nY-BNr">
+                                <rect key="frame" x="20" y="91" width="280" height="405"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" red="0.87311056389999997" green="0.87311056389999997" blue="0.87311056389999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="3ne-nY-BNr" firstAttribute="top" secondItem="6aQ-am-3pI" secondAttribute="bottom" constant="20" id="7s3-yc-8be"/>
+                            <constraint firstItem="HZ3-Yj-8Pj" firstAttribute="top" secondItem="3ne-nY-BNr" secondAttribute="bottom" constant="23" id="9TU-FS-J1B"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="TimeLine" id="hQB-Pt-v9T"/>
                 </viewController>

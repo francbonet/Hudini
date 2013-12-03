@@ -15,6 +15,8 @@
 
 @implementation ConfigViewController
 
+@synthesize profilePictureView = _profilePictureView;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -43,6 +45,17 @@
                  
                  _nombre.text = user.name;
                  _identificador.text = [user objectForKey:@"id"];
+                 
+                 
+                 
+                 // Initialize the profile picture
+                 self.profilePictureView = [[FBProfilePictureView alloc] init];
+                 // Set the size
+                 self.profilePictureView.frame = CGRectMake( 55.0 , 97.0, 75.0, 75.0 );
+                 // Show the profile picture for a user
+                 self.profilePictureView.profileID = user.id;
+                 // Add the profile picture view to the main view
+                 [self.view addSubview:self.profilePictureView];
                  
                  
                  

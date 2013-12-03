@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C23472D6161B99FC003AD58C"
-               BuildableName = "face.app"
+               BuildableName = "hudini.app"
                BlueprintName = "hudini"
                ReferencedContainer = "container:hudini.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C23472D6161B99FC003AD58C"
-            BuildableName = "face.app"
+            BuildableName = "hudini.app"
             BlueprintName = "hudini"
             ReferencedContainer = "container:hudini.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C23472D6161B99FC003AD58C"
-            BuildableName = "face.app"
+            BuildableName = "hudini.app"
             BlueprintName = "hudini"
             ReferencedContainer = "container:hudini.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C23472D6161B99FC003AD58C"
-            BuildableName = "face.app"
+            BuildableName = "hudini.app"
             BlueprintName = "hudini"
             ReferencedContainer = "container:hudini.xcodeproj">
          </BuildableReference>

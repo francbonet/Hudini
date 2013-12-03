@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
 @interface ConfigViewController : UIViewController
 
@@ -14,5 +15,6 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *nombre;
 @property (weak, nonatomic) IBOutlet UITextField *identificador;
+@property (strong, nonatomic) FBProfilePictureView *profilePictureView;
 
 @end
